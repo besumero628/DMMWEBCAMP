@@ -19,6 +19,30 @@ header {
 
 .header-text {
   padding: 20px;
+  font-size: 30px;
   color: #808080;
   font-weight: bold;
+}
+
+main {
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.webcamp-box {
+  width: 840px;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 840px;
+  padding-bottom: 30px;
+  border-bottom: 8px solid #f7f7f7;
+}
+
+.space {
+  height: 30px;
 }
