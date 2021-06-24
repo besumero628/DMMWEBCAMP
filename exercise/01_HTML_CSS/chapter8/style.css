@@ -3,3 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 960px;
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bar-list {
+  margin-bottom: 50px;
+}
+
+.bar {
+  width: 960px;
+  padding: 20px;
+}
+
+.bar:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.scale-list {
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scale {
+  width: 30%;
+  height: 200px;
+  background-color: gold;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.scale:nth-of-type(4n-3) {
+  background-color: orange;
+}
+
+.scale:nth-of-type(3n) {
+  margin-right: 0;
+}
